@@ -38,7 +38,12 @@ nav.nav-bar {
 nav.nav-bar a {
   text-decoration: none;
   padding-right: 25px;
+  font-size: 20px;
   color: #22283a;
+}
+
+nav.nav-bar a:hover {
+  font-weight: bold;
 }
 
 #background {
@@ -152,4 +157,36 @@ nav.nav-bar a {
 .right-section p {
   font-size: 24px;
   color: grey;
+}
+
+p.earn {
+  background: #22283a;
+  height: 50px;
+  border-radius: 5px;
+  color: white;
+  padding-top: 10px;
+}
+p.earn:hover {
+  background: #3a2a22;
+  cursor: pointer;
+}
+
+.list-items {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 3%;
+  align-self: center;
+}
+
+.tools {
+  padding-right: 20px;
+}
+
+.tools p {
+  text-align: center;
+}
+.price {
+  background: green;
+  color: white;
 }
