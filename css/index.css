@@ -7,6 +7,7 @@ body {
   padding: 0;
   width: 100%;
   margin: 0 auto;
+  background: #f3f3f3;
 }
 
 * {
@@ -29,6 +30,7 @@ body {
 
 .logo {
   height: 85px;
+  width: 150px;
 }
 nav.nav-bar {
   display: flex;
@@ -56,13 +58,14 @@ nav.nav-bar a {
 .header-text {
   text-align: center;
   padding-top: 1em;
-  color: #eee;
+  color: rgba(165, 81, 42, 0.966);
   margin-top: 60px;
   font-family: "Raleway", sans-serif;
 }
 /* Style for welcome text */
 .quick-header {
   font-size: 60px;
+  font-weight: bold;
   padding: 0 2em;
   line-height: 2em;
   margin-bottom: 0px;
@@ -101,4 +104,52 @@ nav.nav-bar a {
 .transparent {
   background: transparent;
   border: solid white 2px;
+}
+
+.second-section {
+  padding: 3em 4%;
+  margin-top: 220px;
+  font-size: 15px;
+  display: flex;
+  align-items: flex-start;
+  border: 2px solid white;
+  padding: 10%;
+  background: white;
+  width: 95%;
+  margin: 220px auto;
+  margin-bottom: 0px;
+  justify-content: space-between;
+}
+
+.about-section {
+  margin-top: 20px;
+  width: 50%;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50px;
+  width: 120px;
+  margin-left: 120px;
+}
+.right-section {
+  width: 42%;
+  text-align: center;
+}
+.right-section h2 {
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.about-section p {
+  font-size: 20px;
+  color: grey;
+}
+
+.right-section p {
+  font-size: 24px;
+  color: grey;
 }
