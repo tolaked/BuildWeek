@@ -17,10 +17,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  background: white;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  height: 85px;
+  width: 100%;
 }
 
 .logo {
-  height: 90px;
+  height: 85px;
 }
 nav.nav-bar {
   display: flex;
@@ -29,4 +37,68 @@ nav.nav-bar a {
   text-decoration: none;
   padding-right: 25px;
   color: #22283a;
+}
+
+#background {
+  height: 40em;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background: url("../img/background.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+/* Style for landing page welcome note */
+.header-text {
+  text-align: center;
+  padding-top: 1em;
+  color: #eee;
+  margin-top: 60px;
+  font-family: "Raleway", sans-serif;
+}
+/* Style for welcome text */
+.quick-header {
+  font-size: 60px;
+  padding: 0 2em;
+  line-height: 2em;
+  margin-bottom: 0px;
+}
+/* Style for Notes in landing page */
+.sub-text {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+#buttons {
+  margin: 30px 0px;
+  text-align: center;
+}
+
+/* Style for landing page sign up and learn more button */
+.start-btn {
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+  letter-spacing: 2px;
+  width: 190px;
+  padding: 0.8em 2em;
+  background: brown;
+  border: solid 2px brown;
+  border-radius: 3px;
+  display: block;
+  margin: 30px 10px;
+  display: inline-block;
+}
+/* style for button hover state */
+.transparent:hover {
+  background: brown;
+  border: solid 2px var(--sec-color);
+}
+.transparent {
+  background: transparent;
+  border: solid white 2px;
 }
