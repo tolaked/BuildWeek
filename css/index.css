@@ -72,7 +72,6 @@ nav.nav-bar a:hover {
   top: 0px;
   left: 0px;
   width: 100%;
-  /* background: url("../img/borrow-background.jpg"); */
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -95,17 +94,27 @@ nav.nav-bar a:hover {
   font-weight: bold;
   padding: 0 2em;
   line-height: 2em;
-  /* color: rgb(165, 61, 42); */
   color: white;
   margin-bottom: 0px;
 }
+
+.abt-us {
+  color: black;
+  width: 50%;
+  line-height: 1.5;
+  margin: 0 auto;
+  background: white;
+  border-radius: 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 /* Style for Notes in landing page */
 .sub-text {
   font-size: 30px;
   margin-top: 10px;
   font-weight: bolder;
-  font-size: 50px;
-  /* color: rgb(165, 61, 42); */
+  font-size: 40px;
   color: white;
 }
 
@@ -132,8 +141,8 @@ nav.nav-bar a:hover {
 /* style for button hover state */
 .transparent:hover {
   background: brown;
-  /* border: solid 2px var(--sec-color); */
 }
+
 .transparent {
   background: transparent;
   border: solid white 2px;
