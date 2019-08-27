@@ -245,3 +245,43 @@ footer {
 .copyright {
   text-align: center;
 }
+
+.requests {
+  margin-top: 120px;
+  text-align: center;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 80%;
+}
+
+td,
+th {
+  /* border: 1px solid #dddddd; */
+  text-align: left;
+  padding: 8px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+
+tr:nth-child(1) {
+  background: #f4a460;
+  padding-right: 0;
+  margin-right: 0;
+  width: 100%;
+}
+td:nth-child(4) {
+  background-color: #f4a460;
+  border: 1px solid white;
+  color: white;
+  height: 10px;
+}
