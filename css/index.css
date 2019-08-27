@@ -72,12 +72,13 @@ nav.nav-bar a:hover {
   top: 0px;
   left: 0px;
   width: 100%;
-  background: url("../img/borrow-background.jpg");
+  /* background: url("../img/borrow-background.jpg"); */
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
-  opacity: 1.5;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.808), rgba(0, 0, 0, 0.24)),
+    url("../img/borrow-background.jpg");
 }
 
 /* Style for landing page welcome note */
@@ -94,7 +95,8 @@ nav.nav-bar a:hover {
   font-weight: bold;
   padding: 0 2em;
   line-height: 2em;
-  color: rgb(165, 61, 42);
+  /* color: rgb(165, 61, 42); */
+  color: white;
   margin-bottom: 0px;
 }
 /* Style for Notes in landing page */
@@ -103,7 +105,8 @@ nav.nav-bar a:hover {
   margin-top: 10px;
   font-weight: bolder;
   font-size: 50px;
-  color: rgb(165, 61, 42);
+  /* color: rgb(165, 61, 42); */
+  color: white;
 }
 
 #buttons {
@@ -284,4 +287,97 @@ td:nth-child(4) {
   border: 1px solid white;
   color: white;
   height: 10px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+td:nth-child(5) {
+  font-weight: bolder;
+}
+
+td:nth-child(5):hover {
+  background: #f4a460;
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+.request-form {
+  margin: 0 auto;
+  width: 70%;
+  background: white;
+  padding: 3%;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.request-form input {
+  width: 40%;
+  height: 40px;
+  border: 1px solid grey;
+}
+
+.request-form label {
+  font-weight: bold;
+}
+
+.request-form h2 {
+  margin-bottom: 40px;
+  margin-left: 20%;
+  font-weight: bolder;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.829);
+}
+
+#Location {
+  margin-left: 52px;
+}
+#Tool {
+  margin-left: 10px;
+}
+
+#Date {
+  margin-left: 25px;
+}
+
+.request-form select {
+  width: 40%;
+  height: 40px;
+  border: 1px solid grey;
+}
+
+.inputs {
+  margin-bottom: 20px;
+}
+
+.privacy input {
+  height: 10px;
+  margin-left: -100px;
+}
+
+.submit {
+  background: brown;
+  height: 40px;
+  align-self: center;
+  box-shadow: none;
+  text-decoration: none;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  width: 20%;
+  margin-left: 25%;
+  margin-top: 20px;
+}
+
+.submit:hover,
+.submit:focus {
+  background: saddlebrown;
+}
+
+.submit:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+.submit:active {
+  transform: scale(0.99);
 }
