@@ -72,18 +72,19 @@ nav.nav-bar a:hover {
   top: 0px;
   left: 0px;
   width: 100%;
-  background: url("../img/background.jpg");
+  background: url("../img/borrow-background.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
+  opacity: 1.5;
 }
 
 /* Style for landing page welcome note */
 .header-text {
   text-align: center;
   padding-top: 1em;
-  color: rgba(165, 81, 42, 0.966);
+  color: rgba(165, 56, 42, 0.966);
   margin-top: 60px;
   font-family: "Raleway", sans-serif;
 }
@@ -93,12 +94,16 @@ nav.nav-bar a:hover {
   font-weight: bold;
   padding: 0 2em;
   line-height: 2em;
+  color: rgb(165, 61, 42);
   margin-bottom: 0px;
 }
 /* Style for Notes in landing page */
 .sub-text {
   font-size: 30px;
   margin-top: 10px;
+  font-weight: bolder;
+  font-size: 50px;
+  color: rgb(165, 61, 42);
 }
 
 #buttons {
