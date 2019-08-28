@@ -18,7 +18,8 @@
       <header class="header">
         <img class="logo" src="img/logo1.jpg" alt="logo" />
         <nav class="nav-bar">
-         <a class="tab" href="index.html">Home</a>
+        <a href="#">Home</a>
+          <a href="sign-in.html">Sign In</a>
           <a href="requests.html">Requests</a>
           <a href="#">About us</a>
           <a href="#">Contact us</a>
@@ -30,7 +31,30 @@
       <div class="form-container">
             <form id="login-form" action="">
               <div>
-                <h3>Please enter your credentials to log in</h3>
+                <h3>Create an account to get started</h3>
+                <hr>
+
+                <p class="label">
+                        <label for="FirstName" class="label">First Name</label>
+                      </p>
+                      <input
+                        type="text"
+                        id="FirstName"
+                        name="FirstName"
+                        placeholder="FirstName"
+                        required
+                      />
+
+                      <p class="label">
+                            <label for="LastName" class="label">Last Name</label>
+                          </p>
+                          <input
+                            type="text"
+                            id="LastName"
+                            name="LastName"
+                            placeholder="LastName"
+                            required
+                          />
                 <p class="label"><label for="email" class="label">Email</label></p>
     
                 <input
@@ -52,17 +76,24 @@
                   placeholder="Enter password"
                   required
                 />
+                <p class="label">
+                        <label for="password" class="label">Confirm Password</label>
+                      </p>
+                      <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Confirm password"
+                        required
+                      />
+                      
                 <button type="submit" id="submit-login">
-                  Login
+                  Sign Up
                 </button>
+               
                 <p class="acct">
-                  <a class="sign-link forgot-password" href="#"
-                    >Forgot Password?</a
-                  >
-                </p>
-                <p class="acct">
-                  Don't have an account yet?
-                  <a class="sign-link" href="signup.html">Sign Up</a>
+                  Already have an account?
+                  <a class="sign-link" href="sign-up.html">Log In</a>
                 </p>
               </div>
             </form>

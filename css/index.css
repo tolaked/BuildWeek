@@ -66,6 +66,17 @@ nav.nav-bar a:hover {
   font-size: 20px;
 }
 
+.request-tab {
+  background: brown;
+  margin-right: 18px;
+  color: white;
+  width: 90px;
+  height: 30px;
+  padding: 3px 5px 5px 12px;
+  border-radius: 2px;
+  font-size: 20px;
+}
+
 nav.nav-bar p.home-tab a {
   color: white;
 }
@@ -250,7 +261,12 @@ footer {
   padding: 3em 1em;
   font-size: 0.9375rem;
   color: white;
-  /* margin-top: 20px; */
+}
+
+.footer-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
 }
 
 .footer > div ul {
@@ -260,8 +276,12 @@ footer {
 
 .footer > div ul li {
   padding-top: 5px;
+  padding-bottom: 16px;
 }
-
+.footer .footer-contents p {
+  padding-bottom: -55px;
+  /* background: yellow; */
+}
 .copyright {
   text-align: center;
 }
@@ -415,6 +435,8 @@ td:nth-child(5):hover {
 }
 div h3 {
   line-height: 28px;
+  text-align: center;
+  font-size: 20px;
 }
 
 form input {
@@ -469,4 +491,15 @@ button[type="submit"]:focus {
   color: green;
   font-size: 15px;
   text-decoration: none;
+}
+
+/* STYLE FOR SIGNUP PAGE */
+
+.signup-container {
+  max-width: 400px;
+  margin: 130px auto 80px auto;
+  margin-bottom: 50%;
+  padding: 30px 40px 20px 40px;
+  background: white;
+  border-radius: 3px;
 }
