@@ -235,15 +235,17 @@ p.earn:hover {
   flex-wrap: wrap;
   padding-left: 3%;
   align-self: center;
+  width: 100%;
 }
 
 .tools {
-  padding-right: 20px;
+  padding-right: 10px;
 }
 
 .tools p {
   text-align: center;
 }
+
 .price {
   background: rgba(165, 61, 42, 0.932);
   color: white;
@@ -515,7 +517,6 @@ button[type="submit"]:focus {
 .menu-icon {
   display: none;
 }
-
 @media (max-width: 500px) {
   .header {
     min-width: 60%;
@@ -597,7 +598,7 @@ button[type="submit"]:focus {
   .list-items {
     margin-top: 20px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: column;
     padding-left: 3%;
     align-self: center;
   }
@@ -614,5 +615,36 @@ button[type="submit"]:focus {
     flex-direction: column;
     align-items: baseline;
     font-size: 14px;
+  }
+
+  .google-map {
+    display: none;
+  }
+
+  table {
+    min-width: 60%;
+    font-size: 12px;
+  }
+
+  .request-form {
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 10px;
+  }
+
+  .submit {
+    width: 40%;
+  }
+
+  .request-form input {
+    width: 50%;
+  }
+
+  .request-form select {
+    width: 50%;
+  }
+
+  .request-tab {
+    display: none;
   }
 }
