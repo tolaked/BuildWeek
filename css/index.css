@@ -40,7 +40,9 @@ nav.nav-bar {
 
 .home-tab:hover {
   background: rgba(165, 42, 42, 0.925);
-  font-weight: bold;
+  text-shadow: 0px 0px 0 rgb(165, 42, 0.925), 1px 1px 0 rgb(165, 123, 26),
+    2px 2px 0 rgb(242, 185, 100);
+
   cursor: pointer;
 }
 
@@ -52,7 +54,8 @@ nav.nav-bar a {
 }
 
 nav.nav-bar a:hover {
-  font-weight: bold;
+  text-shadow: 0px 0px 0 rgb(208, 138, 28), 1px 1px 0 rgb(165, 123, 26),
+    2px 2px 0 rgb(242, 185, 100), 3px 3px 0 rgb(227, 167, 187);
 }
 
 .home-tab {
@@ -125,7 +128,6 @@ a {
   border-radius: 2px;
   padding-top: 5px;
   padding-bottom: 5px;
-  /* font-size: 0.9em; */
   font-weight: bold;
 }
 
@@ -507,4 +509,110 @@ button[type="submit"]:focus {
 .google-map {
   margin-top: 30px;
   margin-left: 20%;
+}
+
+/* RESPONSIVENESS */
+.menu-icon {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .header {
+    min-width: 60%;
+    background: #f3f3f3;
+  }
+  nav.nav-bar {
+    width: 60%;
+    display: flex;
+  }
+  nav.nav-bar a {
+    font-size: 12px;
+    padding-right: 3px;
+  }
+  .home-tab {
+    display: none;
+  }
+  .logo {
+    width: 70px;
+    color: #f3f3f3;
+  }
+
+  .quick-header {
+    font-size: 20px;
+    font-weight: light;
+    padding: 0 2em;
+    line-height: 1em;
+    color: white;
+  }
+
+  .sub-text {
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: lighter;
+    font-size: 20px;
+    color: white;
+  }
+
+  .abt-us {
+    color: #0f1721;
+    width: 80%;
+    line-height: 1.5;
+    margin: 0 auto;
+    border-radius: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 3px;
+    padding-left: 3px;
+    font-weight: bold;
+  }
+
+  .second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10%;
+    width: 95%;
+    margin: 120px auto;
+    margin-bottom: 0px;
+    justify-content: space-between;
+  }
+
+  .about-section {
+    margin-top: 20px;
+    width: 100%;
+    padding-right: 20px;
+  }
+
+  .right-section {
+    width: 100%;
+    text-align: center;
+  }
+
+  .profile-img {
+    height: 100px;
+    border-radius: 50px;
+    width: 120px;
+    margin-left: 80px;
+  }
+  .list-items {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    align-self: center;
+  }
+
+  .tools {
+    width: 100%;
+  }
+  .tools img {
+    width: 100%;
+  }
+
+  .footer-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    font-size: 14px;
+  }
 }
