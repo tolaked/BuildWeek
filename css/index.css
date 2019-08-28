@@ -503,3 +503,8 @@ button[type="submit"]:focus {
   background: white;
   border-radius: 3px;
 }
+
+.google-map {
+  margin-top: 30px;
+  margin-left: 20%;
+}
