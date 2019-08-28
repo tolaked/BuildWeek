@@ -38,17 +38,6 @@ nav.nav-bar {
   align-items: center;
 }
 
-.home-tab {
-  background: brown;
-  margin-right: 10px;
-  color: white;
-  width: 70px;
-  height: 30px;
-  padding: 3px 5px 5px 12px;
-  border-radius: 2px;
-  font-size: 20px;
-}
-
 .home-tab:hover {
   background: rgba(165, 42, 42, 0.925);
   font-weight: bold;
@@ -66,6 +55,24 @@ nav.nav-bar a:hover {
   font-weight: bold;
 }
 
+.home-tab {
+  background: brown;
+  margin-right: 10px;
+  color: white;
+  width: 70px;
+  height: 30px;
+  padding: 3px 5px 5px 12px;
+  border-radius: 2px;
+  font-size: 20px;
+}
+
+nav.nav-bar p.home-tab a {
+  color: white;
+}
+
+a {
+  color: white;
+}
 #background {
   height: 40em;
   position: absolute;
@@ -99,14 +106,16 @@ nav.nav-bar a:hover {
 }
 
 .abt-us {
-  color: black;
+  color: #0f1721;
   width: 50%;
   line-height: 1.5;
   margin: 0 auto;
-  background: white;
+  background: rgba(255, 255, 255, 0.9);
   border-radius: 2px;
   padding-top: 5px;
   padding-bottom: 5px;
+  /* font-size: 0.9em; */
+  font-weight: bold;
 }
 
 /* Style for Notes in landing page */
@@ -150,7 +159,6 @@ nav.nav-bar a:hover {
 
 .second-section {
   padding: 3em 4%;
-  margin-top: 220px;
   font-size: 15px;
   display: flex;
   align-items: flex-start;
@@ -158,7 +166,7 @@ nav.nav-bar a:hover {
   padding: 10%;
   background: white;
   width: 95%;
-  margin: 220px auto;
+  margin: 120px auto;
   margin-bottom: 0px;
   justify-content: space-between;
 }
@@ -389,4 +397,76 @@ td:nth-child(5):hover {
 
 .submit:active {
   transform: scale(0.99);
+}
+
+/* STYLE FOR SIGNIN FORM */
+.form-container {
+  max-width: 400px;
+  margin: 130px auto 80px auto;
+  padding: 30px 40px 20px 40px;
+  background: white;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 800px) {
+  .form-container {
+    margin: 100px auto 0px auto;
+  }
+}
+div h3 {
+  line-height: 28px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #32669a;
+  border-radius: 3px;
+  color: inherit;
+}
+
+::placeholder {
+  color: #999;
+}
+button[type="submit"] {
+  margin: 40px 0;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 14px 0;
+  background: brown;
+  border: none;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  opacity: 0.9;
+  background: rgba(165, 91, 42, 0.938);
+}
+button[type="submit"]:focus {
+  outline: none;
+}
+#submit {
+  margin: 40px 0;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 14px 0;
+  background: brown;
+  border: none;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.acct {
+  text-align: center;
+  font-size: 16px;
+}
+
+.sign-link {
+  color: green;
+  font-size: 15px;
+  text-decoration: none;
 }
