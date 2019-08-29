@@ -133,6 +133,10 @@ a {
   padding-top: 5px;
   padding-bottom: 5px;
   font-weight: bold;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-left: 8px;
 }
 
 /* Style for Notes in landing page */
@@ -579,7 +583,7 @@ button[type="submit"]:focus {
 @media (max-width: 500px) {
   .header {
     min-width: 60%;
-    background: #f3f3f3;
+    background: white;
   }
   nav.nav-bar {
     width: 60%;
@@ -694,6 +698,9 @@ button[type="submit"]:focus {
 
   .submit {
     width: 40%;
+  }
+  button.submit:hover {
+    cursor: pointer;
   }
 
   .request-form input {
