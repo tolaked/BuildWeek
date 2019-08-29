@@ -534,6 +534,7 @@ button[type="submit"]:focus {
   nav.nav-bar a {
     font-size: 12px;
     padding-right: 3px;
+    font-weight: bold;
   }
   .home-tab {
     display: none;
