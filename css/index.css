@@ -407,6 +407,7 @@ td:nth-child(5):hover {
   width: 20%;
   margin-left: 25%;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .submit:hover,
