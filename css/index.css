@@ -80,6 +80,10 @@ nav.nav-bar a:hover {
   font-size: 20px;
 }
 
+.request-tab:hover {
+  cursor: pointer;
+}
+
 nav.nav-bar p.home-tab a {
   color: white;
 }
