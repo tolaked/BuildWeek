@@ -15,13 +15,16 @@
   </head>
   <body>
     <div class="container">
-      <header class="header">
+      <header class="header sign-header">
         <img class="logo" src="img/useTools.jpg" alt="logo" />
-        <nav class="nav-bar">
-         <a class="tab" href="index.html">Home</a>
+        <nav class="nav-bar" id='myTopnav'>
+          <a href="#contact">About Us</a>
           <a href="requests.html">Requests</a>
-          <a href="#">About us</a>
-          <a href="contact.html">Contact us</a>
+          <a href="contact.html">Contact Us</a>
+          <a href="index.html" class="tab">Home</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
         </nav>
       </header>
 
@@ -113,5 +116,6 @@
         <p>&copy;2019.Use My Tools. All right reserved</p>
       </div>
     </footer>
+    <script src='./JS/index.js'></script>
   </body>
 </html>
